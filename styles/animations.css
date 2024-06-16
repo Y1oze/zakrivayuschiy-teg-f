@@ -13,53 +13,53 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
-  @keyframes disabled-button {
-    from {
-      left: -24px;
-    }
-    to {
-      left: -20px;
-    }
+@keyframes disabled-button {
+  from {
+    left: -24px;
   }
-  
-  @keyframes focus-button {
-    from {
-      transform: scale(0);
-    }
-    to {
-      transform: scale(1);
-    }
+  to {
+    left: -20px;
   }
-  
-  @keyframes shadow-appearence {
-    from {
-      box-shadow: 0 0 transparent;
-    }
-    to {
-      box-shadow: 2px 2px 0 var(--accent-color);
-    }
+}
+
+@keyframes focus-button {
+  from {
+    transform: scale(0);
   }
-  
-  @keyframes heart {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.5);
-    }
-    100% {
-      transform: scale(1);
-    }
+  to {
+    transform: scale(1);
   }
-  
-  @keyframes sparks {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
+}
+
+@keyframes shadow-appearence {
+  from {
+    box-shadow: 0 0 transparent;
   }
+  to {
+    box-shadow: 2px 2px 0 var(--accent-color);
+  }
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes sparks {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
