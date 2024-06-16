@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/* Переменные для имен шрифтов */
+
+:root {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
+
+  --title-weight: 700;
+  --content-weight: 400;
+
+  --article-size: 18px;
+  --button-size: 14px;
+
+  --contour: #000;
+  --filling: #ff0000;
+}
