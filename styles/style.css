@@ -115,7 +115,7 @@
   transform: scale(1);
 }
 
-.theme-menu__button:hover::after{
+.theme-menu__button:hover::after {
   transform: scale(1);
 }
 
