@@ -3,7 +3,7 @@
 
 :root {
   --main-font: "Inter-Variable", sans-serif;
-  --accent-font: "PressStart2P", sans-serif;
+  --accent-font: "PressStart2P", fantasy, sans-serif;
 
   --title-weight: 700;
   --content-weight: 400;

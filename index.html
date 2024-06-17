@@ -4,7 +4,7 @@
     <link rel="icon" type="image/svg+xml" href="./svg/favicon.svg" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="light dark" />
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -53,10 +53,10 @@
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
         <div class="container-img">
-          <span class="image-label">&lt;/HTML&gt;</span>
+          <span class="image-label label-uppercase">&lt;/html&gt;</span>
           <img
             src="./images/image.png"
-            alt="image discription"
+            alt="Изображение грузовика"
             class="article-img"
           />
         </div>
@@ -111,10 +111,10 @@
       <article class="article">
         <h2 class="article-name">1 спринт: Я — чистый лист</h2>
         <div class="container-img">
-          <span class="image-label">&lt;/HTML&gt;</span>
+          <span class="image-label label-uppercase">&lt;/html&gt;</span>
           <img
             src="./images/image.png"
-            alt="image discription"
+            alt="Изображение грузовика"
             class="article-img filter-contrast"
           />
         </div>
@@ -171,10 +171,10 @@
       <article class="article">
         <h2 class="article-name">1 спринт: А если не получится?</h2>
         <div class="container-img">
-          <span class="image-label">&lt;CSS&gt;</span>
+          <span class="image-label label-uppercase">&lt;css&gt;</span>
           <img
             src="./images/image.png"
-            alt="image discription"
+            alt="Изображение грузовика"
             class="article-img filter-sepia"
           />
         </div>
@@ -232,7 +232,7 @@
           <span class="image-label">&lt;desigions&gt;</span>
           <img
             src="./images/image.png"
-            alt="image discription"
+            alt="Изображение грузовика"
             class="article-img filter-grayscale"
           />
         </div>
@@ -292,7 +292,7 @@
           <span class="image-label">care</span>
           <img
             src="./images/image.png"
-            alt="image discription"
+            alt="Изображение грузовика"
             class="article-img filter-combo"
           />
         </div>
@@ -353,7 +353,7 @@
           <span class="image-label">&lt;support&gt;</span>
           <img
             src="./images/image.png"
-            alt="image discription"
+            alt="Изображение грузовика"
             class="article-img filter-opacity"
           />
         </div>
@@ -411,7 +411,7 @@
           <span class="image-label">&lt;lifes-style: none;&gt;</span>
           <img
             src="./images/image.png"
-            alt="image discription"
+            alt="Изображение грузовика"
             class="article-img filter-brightness"
           />
         </div>
@@ -471,7 +471,7 @@
           <span class="image-label">&lt;experience&gt;</span>
           <img
             src="./images/image.png"
-            alt="image discription"
+            alt="Изображение грузовика"
             class="article-img filter-blur"
           />
         </div>
@@ -529,7 +529,7 @@
         </div>
       </article>
 
-      <button
+      <!-- <button
         class="footer-button button"
         type="button"
         onclick="window['dialog'].showModal()"
@@ -553,7 +553,6 @@
             viewBox="0 0 40 40"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
-            id="floppy"
             class="dialog-floppy"
           >
             <use href="./svg/floppy-sbl.svg#floppy"></use>
@@ -565,7 +564,44 @@
             <span class="submit-button_text">Ok</span>
           </button>
         </form>
-      </dialog>
+      </dialog> -->
+
+      <button
+  class="footer-button button"
+  type="button"
+  onclick="window['dialog'].showModal()"
+  aria-controls="dialog"
+>
+  <svg
+    viewBox="0 0 40 40"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    id="floppy"
+    class="floppy"
+  >
+    <use href="./svg/floppy-sbl.svg#floppy"></use>
+  </svg>
+  <span class="button__text">Сохранить на память</span>
+</button>
+
+<dialog id="dialog" class="dialog-main">
+  <div class="dialog-wrap">
+    <svg
+      viewBox="0 0 40 40"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      class="dialog-floppy"
+    >
+      <use href="./svg/floppy-sbl.svg#floppy"></use>
+    </svg>
+    <p class="dialog-text">Вставьте дискету,&nbsp;чтобы продолжить</p>
+  </div>
+  <form method="dialog">
+    <button class="button submit-button" type="submit">
+      <span class="submit-button_text">Ok</span>
+    </button>
+  </form>
+</dialog>
     </main>
 
     <script src="./scripts/like.js"></script>

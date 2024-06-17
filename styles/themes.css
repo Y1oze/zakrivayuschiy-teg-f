@@ -84,3 +84,31 @@
     ),
     linear-gradient(to bottom, #e7e7e7 0%, #1a1a1a 100%);
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --title-weight: 700;
+    --content-weight: 400;
+
+    --background-color: #fff;
+    --accent-color: #000;
+    --button-text-color: #fff;
+    --contour: #000;
+
+    --background-image: repeating-linear-gradient(
+        to bottom,
+        #d3d3d3 0px,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      repeating-linear-gradient(
+        to right,
+        #d3d3d3 0px,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(to bottom, #e7e7e7 0%, #1a1a1a 100%);
+  }
+}
